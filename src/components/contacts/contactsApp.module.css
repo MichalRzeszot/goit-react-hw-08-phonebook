@@ -1,0 +1,74 @@
+/* contactsApp.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.addContactForm,
+.filterInput,
+.contactList {
+  margin-bottom: 20px;
+}
+
+.addContactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filterInput input,
+.addContactForm input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.filterInput input:focus,
+.addContactForm input:focus {
+  border-color: #007bff;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.contactItem:last-child {
+  margin-bottom: 0;
+}
+
+.contactItem button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.contactItem button:hover {
+  background-color: #0056b3;
+}
