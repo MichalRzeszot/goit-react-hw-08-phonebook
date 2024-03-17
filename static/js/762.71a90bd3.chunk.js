@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgoit_react_hw_08_phonebook=self.webpackChunkgoit_react_hw_08_phonebook||[]).push([[762],{984:function(e,t,a){a.r(t),a.d(t,{default:function(){return h}});var n="homepage_container__y9UyD",o="homepage_titleName__jdvV3",c=a(184),h=function(){return(0,c.jsx)("div",{className:n,children:(0,c.jsx)("p",{className:o,children:"This is homepage of this contact app"})})}}}]);
+//# sourceMappingURL=762.71a90bd3.chunk.js.map
